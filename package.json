@@ -13,6 +13,14 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
-    "vite-plugin-pwa": "^0.21.1"
+    "vite-plugin-pwa": "^0.21.1",
+    "wrangler": "^3.111.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "workerd"
+    ]
   }
 }

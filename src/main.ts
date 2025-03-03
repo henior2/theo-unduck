@@ -56,7 +56,7 @@ function noSearchDefaultPageRender() {
           <input 
             type="text" 
             class="url-input"
-            value="https://unduck.link?q=%s"
+            value="https://unduck-temp-darkmode.pages.dev/?q=%s"
             readonly 
           />
           <button class="copy-button">
@@ -91,7 +91,7 @@ function noSearchDefaultPageRender() {
   themeToggle.addEventListener("click", toggleTheme);
 }
 
-const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? "g";
+const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? "sp";
 const defaultBang = bangs.find((b) => b.t === LS_DEFAULT_BANG);
 
 function getBangredirectUrl() {
