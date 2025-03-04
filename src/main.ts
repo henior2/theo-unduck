@@ -63,6 +63,18 @@ function noSearchDefaultPageRender() {
             <img src="/clipboard.svg" alt="Copy" />
           </button>
         </div>
+        <p>Demo search <br>(added so that some browsers treat this page as a search engine)</p>
+        <form class="url-container"> 
+          <input 
+            type="text"
+            name="q"
+            class="url-input"
+            placeholder="doom on typescript types !yt" 
+          />
+          <button type="submit" class="search-button">
+            <img src="/search-button.svg" alt="Search" width="24" />
+          </button>
+        </div>
       </div>
       <footer class="footer">
         <a href="https://t3.chat" target="_blank">t3.chat</a>
