@@ -69,7 +69,8 @@ function noSearchDefaultPageRender() {
             type="text"
             name="q"
             class="url-input"
-            placeholder="doom on typescript types !yt" 
+            placeholder="doom on typescript types !yt"
+            role="searchbox"
           />
           <button type="submit" class="search-button">
             <img src="/search-button.svg" alt="Search" width="24" />
